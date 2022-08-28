@@ -1,6 +1,10 @@
 {
   "parserOptions": {
-    "ecmaVersion": "latest"
+    "ecmaVersion": 2022,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true
+    }
   },
   "extends": [
     "plugin:vue/vue3-recommended",
